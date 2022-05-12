@@ -7872,3 +7872,10 @@ body.light .progress-wrap svg.progress-circle path {
 }
 
 /* Top Scroll Progress */
+
+
+@media (max-width: 991px){
+  .head-post.ts-post-thumb {
+    height: 210px;
+}
+}
