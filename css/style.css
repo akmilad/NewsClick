@@ -36,17 +36,17 @@ html{
   -moz-scroll-behavior: inherit;
   -ms-scroll-behavior: inherit;
   -o-scroll-behavior: inherit; */
+  /* overflow: hidden; */
 }
 
 body {
     color: #8a8a8a;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden;
+    overflow: hidden;
     font-size: 14px;
     line-height: 24px;
     font-family: 'Noto Serif Bengali', serif;
-    scroll-behavior: auto;
 }
 :root {
   --red: #da2c4d;
@@ -61,6 +61,7 @@ body {
   --black-blue-light-2: #404255;
   --black-blue-light-3: #4b4d64;
   --black-light: #424455;
+    overflow-x: hidden;
 }
 
 .body-color {
@@ -1162,7 +1163,8 @@ blockquote cite:after {
 }
 
 .sticky_control {
-  height: 120px;
+  height: 60px;
+  overflow: hidden;
 }
 .header-default {
     position: relative;
