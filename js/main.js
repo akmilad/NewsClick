@@ -130,7 +130,7 @@ $(function ($) {
             // animateOut: 'slideOutRight',
             autoplayHoverPause: true,
             mouseDrag: true,
-            touchDrag:true,
+            touchDrag:false,
             responsiveClass: true,
             navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
         });
@@ -212,7 +212,7 @@ $(function ($) {
             nav: true,
             autoplayHoverPause: true,
             mouseDrag: true,
-            touchDrag:true,
+            touchDrag:false,
             margin: 30,
             navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
             responsive: {
@@ -248,7 +248,7 @@ $(function ($) {
             dots: true,
             autoplayHoverPause: true,
             mouseDrag: true,
-            touchDrag:true,
+            touchDrag:false,
             responsive: {
                 // breakpoint from 0 up
                 0: {
