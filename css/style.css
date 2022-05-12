@@ -1164,7 +1164,7 @@ blockquote cite:after {
 
 .sticky_control {
   height: 60px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .header-default {
     position: relative;
