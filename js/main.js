@@ -204,6 +204,40 @@ $(function ($) {
     /*========================
         most populer
    ==========================*/
+    if ($('.four-slide-section').length > 0) {
+        $('.four-slide-section').owlCarousel({
+            items: 3,
+            dots: false,
+            loop: true,
+            nav: true,
+            autoplayHoverPause: true,
+            mouseDrag: false,
+            touchDrag:false,
+            margin: 30,
+            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+            responsive: {
+                // breakpoint from 0 up
+                0: {
+                    items: 1,
+                },
+                // breakpoint from 480 up
+                480: {
+                    items: 2,
+                },
+                // breakpoint from 768 up
+                768: {
+                    items: 2,
+                },
+                // breakpoint from 768 up
+                1200: {
+                    items: 4,
+                }
+            }
+        });
+    }
+
+
+      // Topics UK
     if ($('.most-populers').length > 0) {
         $('.most-populers').owlCarousel({
             items: 4,
@@ -236,6 +270,8 @@ $(function ($) {
         });
     }
 
+
+      // Topics UK
     /*========================
         hot topics
    ==========================*/
