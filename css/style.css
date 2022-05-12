@@ -7870,12 +7870,3 @@ body.light .progress-wrap::after {
 body.light .progress-wrap svg.progress-circle path {
   stroke: var(--black-blue);
 }
-
-/* Top Scroll Progress */
-
-
-@media (max-width: 991px){
-  .head-post.ts-post-thumb {
-    height: 250px;
-}
-}
