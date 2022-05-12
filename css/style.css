@@ -43,7 +43,7 @@ body {
     color: #8a8a8a;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    overflow: hidden;
+    /* overflow: hidden; */
     font-size: 14px;
     line-height: 24px;
     font-family: 'Noto Serif Bengali', serif;
@@ -61,7 +61,7 @@ body {
   --black-blue-light-2: #404255;
   --black-blue-light-3: #4b4d64;
   --black-light: #424455;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .body-color {

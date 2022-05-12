@@ -206,10 +206,10 @@ $(function ($) {
    ==========================*/
     if ($('.most-populers').length > 0) {
         $('.most-populers').owlCarousel({
-            items: 3,
-            dots: false,
+            items: 4,
+            dots: true,
             loop: true,
-            nav: true,
+            nav: false,
             autoplayHoverPause: true,
             mouseDrag: false,
             touchDrag:false,
