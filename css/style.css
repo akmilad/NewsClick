@@ -43,7 +43,7 @@ body {
     color: #8a8a8a;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    /* overflow: hidden; */
+    overflow: hidden;
     font-size: 14px;
     line-height: 24px;
     font-family: 'Noto Serif Bengali', serif;
@@ -61,7 +61,7 @@ body {
   --black-blue-light-2: #404255;
   --black-blue-light-3: #4b4d64;
   --black-light: #424455;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .body-color {
@@ -388,7 +388,7 @@ section, .section {
 /* defailt title setting */
 .ts-title {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 25px;
   position: relative;
 }
@@ -3279,6 +3279,12 @@ img.sidebar-img {
   margin-bottom: 0;
   font-size: 14px;
 }
+.copyright-text a{
+  color: #fff;
+}
+.copyright-text a:hover {
+    color: #a4b7ff;
+}
 
 /*------------------------------
       single post page
@@ -4384,7 +4390,7 @@ comments-form
 .ts-cat-title span {
     position: relative;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
     background: #d72924;
     color: #fff;
     line-height: 26px;
@@ -5081,6 +5087,7 @@ comments-form
 
 .copyright-section {
   background: #101727;
+  padding: 8px 0px;
 }
 
 .copyright-section .footer-menu {
